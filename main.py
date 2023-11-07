@@ -13,7 +13,6 @@ def create_task(name, description, state="Novo"):
         print("Não é permitido definir uma tarefa como 'Removida' ou 'Concluída' durante a criação.")
         return
 
-    # Abre o arquivo JSON (ou cria um se não existir)
     try:
         with open("tasks.json", "r") as file:
             tasks = json.load(file)
