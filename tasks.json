@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Task 1",
+        "description": "Description 1.",
+        "state": "Novo"
+    },
+    {
+        "name": "Task 1",
+        "description": "Description 1.",
+        "state": "Em andamento"
+    },
+    {
+        "name": "Task 3",
+        "description": "Description 3.",
+        "state": "Novo"
+    },
+    {
+        "name": "Cadastrar Notas",
+        "description": "N\u00e3o esquecer de cadastrar as notas dos alunos de Eng. Soft.",
+        "state": "Novo"
+    },
+    {
+        "name": "Lembrar de lavar a lou\u00e7a",
+        "description": "N\u00e3o esquecer de lavar a lou\u00e7a quando chegar em casa.",
+        "state": "Novo"
+    },
+    {
+        "name": "Jogar",
+        "description": "Jogar play quando chegar em casa.",
+        "state": "Novo"
+    }
+]
