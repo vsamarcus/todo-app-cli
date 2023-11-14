@@ -1,32 +1,20 @@
 [
-    {
-        "name": "Task 1",
-        "description": "Description 1.",
-        "state": "Novo"
-    },
-    {
-        "name": "Task 1",
-        "description": "Description 1.",
-        "state": "Em andamento"
-    },
-    {
-        "name": "Task 3",
-        "description": "Description 3.",
-        "state": "Novo"
-    },
-    {
-        "name": "Cadastrar Notas",
-        "description": "N\u00e3o esquecer de cadastrar as notas dos alunos de Eng. Soft.",
-        "state": "Novo"
-    },
-    {
-        "name": "Lembrar de lavar a lou\u00e7a",
-        "description": "N\u00e3o esquecer de lavar a lou\u00e7a quando chegar em casa.",
-        "state": "Novo"
-    },
-    {
-        "name": "Jogar",
-        "description": "Jogar play quando chegar em casa.",
-        "state": "Novo"
-    }
+  {
+    "index": 1,
+    "name": "Trabalho Eng Soft",
+    "description": "Criar funcionalidade de marcar tarefa como concluída.",
+    "state": "Concluído"
+  },
+  {
+    "index": 2,
+    "name": "Trabalho Eng Soft - Parte 2",
+    "description": "Criar funcionalidade de deletar.",
+    "state": "Novo"
+  },
+  {
+    "index": 3,
+    "name": "Trabalho Eng Soft - Parte 3",
+    "description": "Subir código no GitHub.",
+    "state": "Novo"
+  }
 ]
