@@ -2,6 +2,7 @@ from create_task import create_task
 from remove_task import remove_task
 from list_task import list_tasks
 from update_task import update_task, ALLOWED_STATES
+from export_task import export_task
 
 import argparse
 
@@ -30,6 +31,10 @@ update_parser = subparsers.add_parser("update")
 update_parser.add_argument("--index", type=int, required=True, help="Índice da tarefa a ser atualizada")
 update_parser.add_argument("--state", choices=ALLOWED_STATES, required=True, help="Novo estado da tarefa")
 
+# Subcomando para exportar tarefas
+export_parser = subparsers.add_parser("export")
+export_parser.add_argument("--filename", required=True, help="Nome do arquivo de exportação")
+
 
 # Analisa os argumentos da linha de comando
 args = parser.parse_args()
@@ -42,5 +47,7 @@ elif args.command == "remove":
     remove_task(args.index)
 elif args.command == "update":
     update_task(args.index, args.state)
+elif args.command == "export":
+    export_task(args.filename)
 else:
     print("Comando não reconhecido. Use 'create' para criar uma nova tarefa.")
