@@ -1,0 +1,14 @@
+[
+  {
+    "index": 2,
+    "name": "Trabalho Eng Soft - Parte 2",
+    "description": "Criar funcionalidade de deletar.",
+    "state": "Novo"
+  },
+  {
+    "index": 3,
+    "name": "Trabalho Eng Soft - Parte 3",
+    "description": "Subir código no GitHub.",
+    "state": "Concluído"
+  }
+]
